@@ -1,3 +1,4 @@
+"use client";
 import PlaylistItem from "./PlaylistItem";
 
 interface Playlist {

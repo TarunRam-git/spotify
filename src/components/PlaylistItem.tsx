@@ -1,3 +1,4 @@
+"use client";
 interface PlaylistItemProps {
   name: string;
   liked?: boolean;

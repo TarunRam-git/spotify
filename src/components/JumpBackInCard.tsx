@@ -1,3 +1,5 @@
+"use client";
+
 interface JumpBackInCardProps {
   img?: string;
   title: string;

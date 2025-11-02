@@ -1,3 +1,5 @@
+"use client";
+
 export default function Navbar() {
   return (
     <div className="flex items-center justify-between bg-[#121212] px-6 py-3">

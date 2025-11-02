@@ -1,3 +1,5 @@
+"use client";
+
 interface DailyMixCardProps {
   img?: string;
   name: string;
