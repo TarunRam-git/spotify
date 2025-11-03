@@ -2,14 +2,18 @@
 import "./globals.css";
 import type { ReactNode } from "react";
 import { MusicPlayerProvider } from "@/lib/MusicPlayerContext";
+import { SessionProvider } from "next-auth/react";
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
       <body>
-          <MusicPlayerProvider>
+          <SessionProvider>
+            <MusicPlayerProvider>
             {children}
           </MusicPlayerProvider>
+          </SessionProvider>
+          
           
       </body>
     </html>
